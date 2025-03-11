@@ -18,15 +18,19 @@
     3. Directory Busting
 	    3. Leaking tech stack, finding social engineering targets
 
+- Enumeration CheatSheet:
+    1. Directory Busting 
+	    3. Fuzz for extensions
+	    4. Use short wordlis
+
+
 - Exploitation CheatSheet:
-    1. Search for  `<software> <version> <exploit> GitHub`   or look for writeups or blog posts
+    1. Search for  `<software> <version> <exploit> GitHub`   or look for writeups or blog posts.
 	    1. Look through repos and issues, for credentials, subdomains, sensitive files.
     2. Look at and understand the exploit. Are modifications needed?
 	    2. Can Google dork for S3 buckets, exact matches.
-    3. Directory Busting 
-	    3. Fuzz for extensions
-	    4. Short wordlist (common.txt), then Long
-	4. 
+
+	3. 
 
 
 
