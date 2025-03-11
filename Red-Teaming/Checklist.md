@@ -19,7 +19,7 @@
 	    3. Leaking tech stack, finding social engineering targets
 
 - Exploitation CheatSheet:
-    1. Search for <version-name>
+    1. Search for  `<software> <version> <exploit>`   
 	    1. Look through repos and issues, for credentials, subdomains, sensitive files.
     2. Nuclei
 	    2. Can Google dork for S3 buckets, exact matches.
