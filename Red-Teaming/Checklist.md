@@ -25,6 +25,7 @@
 	    2. Can Google dork for S3 buckets, exact matches.
     3. Directory Busting
 	    3. Leaking tech stack, finding social engineering targets
+	4. 
 
 
 
