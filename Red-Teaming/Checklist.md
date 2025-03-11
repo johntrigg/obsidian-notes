@@ -17,11 +17,13 @@
 	    2. Can Google dork for S3 buckets, exact matches.
     3. Directory Busting
 	    3. Leaking tech stack, finding social engineering targets
+	4. Burp Scanner
+		1. Install extensions 
 
 - Enumeration CheatSheet:
     1. Directory Busting 
 	    3. Fuzz for extensions
-	    4. Use short wordlis
+	    4. Use short wordlist (dirb common.txt) then long (raft)
 
 
 - Exploitation CheatSheet:
@@ -29,8 +31,8 @@
 	    1. Look through repos and issues, for credentials, subdomains, sensitive files.
     2. Look at and understand the exploit. Are modifications needed?
 	    2. Can Google dork for S3 buckets, exact matches.
-
-	3. 
+	3. Use Ffuf or Burp intruder to mass-test payloads
+		1. Seclists payloads (SSTI/LFI/Path Traversal)
 
 
 
