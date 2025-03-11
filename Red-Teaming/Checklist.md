@@ -24,6 +24,7 @@
     1. Directory Busting 
 	    3. Fuzz for extensions
 	    4. Use short wordlist (dirb common.txt) then long (raft)
+	2. Find API parameters
 
 
 - Exploitation CheatSheet:
