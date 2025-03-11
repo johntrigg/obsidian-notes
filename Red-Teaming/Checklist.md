@@ -25,7 +25,7 @@
 	    2. Can Google dork for S3 buckets, exact matches.
     3. Directory Busting 
 	    3. Fuzz for extensions
-	    4. Short wordlist (common.txt)
+	    4. Short wordlist (common.txt), then Long
 	4. 
 
 
