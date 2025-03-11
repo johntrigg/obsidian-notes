@@ -31,7 +31,7 @@
     1. Search for  `<software> <version> <exploit> GitHub`   or look for writeups or blog posts.
 	    1. Look through repos and issues, for credentials, subdomains, sensitive files.
     2. Look at and understand the exploit. Are modifications needed?
-	    2. Can Google dork for S3 buckets, exact matches.
+	    2. Can Google Dork for S3 buckets, exact matches.
 	3. Use Ffuf or Burp intruder to mass-test payloads
 		1. Seclists payloads (SSTI/LFI/Path Traversal)
 
