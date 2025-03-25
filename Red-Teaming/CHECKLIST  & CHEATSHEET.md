@@ -60,9 +60,9 @@ Windows Post-Exploitation CheatSheet
 
 
 Persistence Post-Exploitation CheatSheet
-    1. What looks out of place or weird? 
-	    1. Unusual directories, files, activities, both in user and root directories.
-    2. PSPY to monitor for running stuff.
+    1. Autoruns, Cronjobs, Scheduled Tasks
+	    1. You can have these reference other persistence mechanisms (ie have a Cronjob that references a service backdoo)
+    2. Consider usin
 	    2. Can Google Dork for S3 buckets, exact matches.
 
 
