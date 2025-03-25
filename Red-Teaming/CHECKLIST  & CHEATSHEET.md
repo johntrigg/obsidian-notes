@@ -40,14 +40,16 @@
 	4. What looks weird? Are there directories that look odd?
 
 
-Post-Exploitation CheatSheet:
+Linux Post-Exploitation CheatSheet:
     1. What looks out of place or weird? 
-	    1. Unusual directories, files, activityies.
-    2. PSPY on Linux for unusual processes
+	    1. Unusual directories, files, activities, both in user and root directories.
+    2. PSPY to monitor for running stuf
 	    2. Can Google Dork for S3 buckets, exact matches.
 	3. Lazagne, Mimikatz to dump credentials
-	4
+	4 
 
+
+Windows Post-Exploitation CheatSheet
 
 
 
