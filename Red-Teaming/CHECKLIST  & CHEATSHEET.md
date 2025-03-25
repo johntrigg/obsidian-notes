@@ -46,7 +46,7 @@ Linux Post-Exploitation CheatSheet:
     2. PSPY to monitor for running stuff.
 	    2. Can Google Dork for S3 buckets, exact matches.
 	3. Lazagne, Mimikatz to dump credentials
-	4 
+	4. CronJobs (would be seen by PSPY)
 
 
 Windows Post-Exploitation CheatSheet
@@ -59,6 +59,11 @@ Windows Post-Exploitation CheatSheet
 	5. 
 
 
+Persistence Post-Exploitation CheatSheet
+    1. What looks out of place or weird? 
+	    1. Unusual directories, files, activities, both in user and root directories.
+    2. PSPY to monitor for running stuff.
+	    2. Can Google Dork for S3 buckets, exact matches.
 
 
 
