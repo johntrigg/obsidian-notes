@@ -24,6 +24,8 @@
     1. Directory Busting 
 	    3. Fuzz for extensions
 	    4. Use short wordlist (dirb common.txt) then long (raft)
+	    5. You can directory bust within directories, even if you don't have read permissions. 
+	    6. If you need authentication, you can dirse
 	2. Find API parameters (automated tool)
 	3. Check for default or common credentials
 
@@ -35,6 +37,7 @@
 	    2. Can Google Dork for S3 buckets, exact matches.
 	3. Use Ffuf or Burp intruder to mass-test payloads
 		1. Seclists payloads (SSTI/LFI/Path Traversal)
+	4. What looks weird? Are there directories that look odd?
 
 
 
