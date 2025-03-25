@@ -42,7 +42,7 @@
 
 Post-Exploitation CheatSheet:
     1. What looks out of place or weird? 
-	    1. Unusual directoi
+	    1. Unusual directories, files, activityies.
     2. Look at and understand the exploit. Are modifications needed?
 	    2. Can Google Dork for S3 buckets, exact matches.
 	3. Use Ffuf or Burp intruder to mass-test payloads
