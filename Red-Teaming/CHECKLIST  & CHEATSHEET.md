@@ -66,7 +66,8 @@ Persistence Post-Exploitation CheatSheet
 	    1. Multiple people can use these 
 	3. Have persistence mechanisms reference each other, and enable each other
 	4. Add users
-		1. One liner for /e
+		1. One liner for /etc/passwd
+		2. Another for Windows
 
 
 
