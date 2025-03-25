@@ -25,7 +25,7 @@
 	    3. Fuzz for extensions
 	    4. Use short wordlist (dirb common.txt) then long (raft)
 	    5. You can directory bust within directories, even if you don't have read permissions. 
-	    6. If you need authentication, you can dirse
+	    6. If you need authentication, you can dirsearch with headers.
 	2. Find API parameters (automated tool)
 	3. Check for default or common credentials
 
@@ -33,6 +33,16 @@
 - Exploitation CheatSheet:
     1. Search for  `<software> <version> <exploit> GitHub`   or look for writeups or blog posts.
 	    1. Look through repos and issues, for credentials, subdomains, sensitive files.
+    2. Look at and understand the exploit. Are modifications needed?
+	    2. Can Google Dork for S3 buckets, exact matches.
+	3. Use Ffuf or Burp intruder to mass-test payloads
+		1. Seclists payloads (SSTI/LFI/Path Traversal)
+	4. What looks weird? Are there directories that look odd?
+
+
+Post-Exploitation CheatSheet:
+    1. What looks out of place or weird? 
+	    1. Unusual directoi
     2. Look at and understand the exploit. Are modifications needed?
 	    2. Can Google Dork for S3 buckets, exact matches.
 	3. Use Ffuf or Burp intruder to mass-test payloads
