@@ -61,9 +61,11 @@ Windows Post-Exploitation CheatSheet
 
 Persistence Post-Exploitation CheatSheet
     1. Autoruns, Cronjobs, Scheduled Tasks
-	    1. You can have these reference other persistence mechanisms (ie have a Cronjob that references a service backdoo)
-    2. Consider usin
-	    2. Can Google Dork for S3 buckets, exact matches.
+	    1. You can have these reference other persistence mechanisms (ie have a Cronjob that sets up a service backdoor in addition to being its own backdoor)
+    2. Consider using password bind shells
+	    1. Multiple people can use these 
+	3. Have persistence mechanisms reference each other, and enable each other
+	4. 
 
 
 
