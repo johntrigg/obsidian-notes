@@ -1,4 +1,4 @@
-You can write the /etc/passwd file to
+You can write the /etc/passwd file to add a user.
 
 ```bash
 # Generate password hash
