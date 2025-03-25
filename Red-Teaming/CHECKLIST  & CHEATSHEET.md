@@ -65,7 +65,8 @@ Persistence Post-Exploitation CheatSheet
     2. Consider using password bind shells
 	    1. Multiple people can use these 
 	3. Have persistence mechanisms reference each other, and enable each other
-	4. 
+	4. Add users
+		1. One liner for /e
 
 
 
