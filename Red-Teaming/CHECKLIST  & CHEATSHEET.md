@@ -68,6 +68,7 @@ Persistence Post-Exploitation CheatSheet
 	4. Add users
 		1. One liner for /etc/passwd
 		2. Another for Windows
+	5. Make your stu
 
 
 
