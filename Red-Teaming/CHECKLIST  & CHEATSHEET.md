@@ -43,11 +43,11 @@
 Post-Exploitation CheatSheet:
     1. What looks out of place or weird? 
 	    1. Unusual directories, files, activityies.
-    2. Look at and understand the exploit. Are modifications needed?
+    2. PSPY on Linux for unusual processes
 	    2. Can Google Dork for S3 buckets, exact matches.
-	3. Use Ffuf or Burp intruder to mass-test payloads
-		1. Seclists payloads (SSTI/LFI/Path Traversal)
-	4. What looks weird? Are there directories that look odd?
+	3. Lazagne, Mimikatz to dump credentials
+	4
+
 
 
 
