@@ -45,7 +45,7 @@ Linux Post-Exploitation CheatSheet:
 	    1. Unusual directories, files, activities, both in user and root directories.
     2. PSPY to monitor for running stuff.
 	    2. Can Google Dork for S3 buckets, exact matches.
-	3. Lazagne to dump credentials
+	3. Lazagne, Mimikatz to dump credentials
 	4 
 
 
@@ -55,7 +55,7 @@ Windows Post-Exploitation CheatSheet
     2. PSPY to monitor for running stuff.
 	    2. Can Google Dork for S3 buckets, exact matches.
 	3. Lazagne, Mimikatz to dump credentials
-	4 BloodHound
+	4. 
 
 
 
