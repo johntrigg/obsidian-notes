@@ -13,7 +13,8 @@ There are three core concepts:
 # Install docker 
 sudo apt install docker.io -y
 
-# Install
+# Install docker-compose
+sudo apt install docker-compose -y
 ```
 
 ## Useful Commands
