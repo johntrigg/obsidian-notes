@@ -19,4 +19,10 @@ Goal is to expose only one port (80), so we can use it for CTFD docker, have mul
 -Handling king.txt:
 	- Should be relatively hidden
 	- Should be served to the website
-	- Should be a writable king.sh script somewhere that writes an im
+	- Should be a writable king.sh script somewhere that writes an almost immutable king.txt file
+
+
+- -Handling king.txt:
+	- Should be relatively hidden
+	- Should be served to the website
+	- Should be a writable king.sh script somewhere that writes an almost immutable king.txt file
