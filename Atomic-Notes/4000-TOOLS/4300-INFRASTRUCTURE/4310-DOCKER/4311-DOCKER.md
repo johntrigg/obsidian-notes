@@ -6,5 +6,4 @@ Docker is used to run images, small versions of an operating software, or applic
 # Install docker 
 sudo apt install docker.io -y
 
-
 ```
