@@ -22,8 +22,8 @@ docker images
 # Launching hello world test image
 docker run hello-world
 
-# Create a container called 'my-running-app' using the ubuntu-
-docker run -d -p 5000:5000 --name my-running-app ubuntu:latest
+# Create a container called 'my-running-app' using the ubuntu-latest image, map container port 22 to host port 5000, and run the container in -d detached mode in the background
+docker run -d -p 22:5000 --name my-running-app ubuntu:latest
 
 # Check for images (running or not)
 docker ps -a
