@@ -29,4 +29,8 @@ docker run -it ubuntu bash
 
 # Launch it and background it
 docker run -it ubuntu bash &
+
+# Kill running docker of name ubuntu-ssh
+docker kill ubuntu-ssh
+
 ```
