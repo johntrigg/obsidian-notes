@@ -7,7 +7,8 @@ https://github.com/projectdiscovery/nuclei
 # Run as root
 go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
 
-
+# Against every target in urls.txt, run everything in the directory ./nuclei-templates
+nuclei -l urls.txt -t nuclei-templates
 ```
 
 Nuclei is used with templates, a lot of these are community maintained. Somebody made a nice tool to aggregate these. 
