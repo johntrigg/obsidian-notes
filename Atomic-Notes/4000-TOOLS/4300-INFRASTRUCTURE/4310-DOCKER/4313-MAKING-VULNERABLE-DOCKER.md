@@ -26,7 +26,9 @@ Goal is to expose only one port (80), so we can use it for CTFD docker, have mul
 	- Do not try to make it to root user, goal is to make it to admin user who can write a bash script that controls king.txt
 
 
-## Runni
+## Running
+Vulnerable site hosted at 
+https://github.com/johntrigg/vuln-site
 
 ### Files
 The dockerfile
