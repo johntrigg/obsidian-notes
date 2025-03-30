@@ -18,9 +18,13 @@ https://github.com/xm1k3/cent
 # Install, run as root
 go install -v github.com/xm1k3/cent@latest
 
-# Or get the release
+# Or get the release and install manually
 wget https://github.com/xm1k3/cent/releases/download/v1.3.4/cent_1.3.4_linux_amd64.zip
 unzip cent_1.3.4_linux_amd64.zip
+
+cp cent /bin/cent
+
+cent init
 
 
 # Clone and insert nuclei templates into the a folder called 'nuclei-templates'
