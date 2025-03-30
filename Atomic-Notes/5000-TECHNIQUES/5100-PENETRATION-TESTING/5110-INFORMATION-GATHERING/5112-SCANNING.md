@@ -1,1 +1,1 @@
-Scanning is the use of utilizing tools and/or techniques to 
+Scanning is the use of utilizing tools and/or techniques to reveal information about a target. This can involve using
