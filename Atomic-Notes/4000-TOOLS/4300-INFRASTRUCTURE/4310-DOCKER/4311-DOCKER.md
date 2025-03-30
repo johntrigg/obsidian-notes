@@ -3,9 +3,9 @@ Docker is used to run images, small versions of an operating software, or applic
 There are three core concepts:
 
 - There are three core concepts:
-    1. Docker images (Like ubuntu), immutab
-    2. Item 2
-    3. 
+    1. Docker Images - (Like ubuntu:latest), immutable blueprints or bases
+    2. Docker Containers - Portable instances of images used to run applications
+    3. Docker Daemon - Service used to manage images and containers
 
 
 ## Installing Docker
