@@ -26,3 +26,7 @@ Goal is to expose only one port (80), so we can use it for CTFD docker, have mul
 	- Should be relatively hidden
 	- Should be served to the website
 	- Should be a writable king.sh script somewhere that writes an almost immutable king.txt file
+	- 
+- -Rules
+	- Nothing destructive
+	- Do not try to make it to root user, goal is to make it to admin user who can w
