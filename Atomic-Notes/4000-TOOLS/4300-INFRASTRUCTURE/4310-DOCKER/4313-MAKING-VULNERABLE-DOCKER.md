@@ -41,6 +41,10 @@ docker build -t vuln-site .
 # Run the vuln-site container, map host port 8080 to container 80
 docker run -d -p 8080:80 --name vuln-site-container vuln-site
 
+# Check that it's running
+docker ps
+
+
 ```
 
 ### Files
