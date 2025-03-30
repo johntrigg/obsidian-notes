@@ -1,0 +1,1 @@
+Scanning is the use of utilizing tools and/or techniques to 
