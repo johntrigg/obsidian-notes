@@ -5,4 +5,11 @@ Goal is to expose only one port (80), so we can use it for CTFD docker, have mul
 ## Outline
 - Port 80 Website:
     - king.txt hosted
-    - Item 2
+    - command injection vulnerability
+    - file upload vulnerability
+    - lfi vulnerability
+    - web console page for admin
+    - sitemap.xml
+
+- Privilege Escalation:
+	- Writable /etc/
