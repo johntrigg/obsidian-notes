@@ -12,5 +12,6 @@ FROM ubuntu:latest
 ENV DEBIAN_FRONTEND=noninteractive
 
 # Install core utilities
-RUN apt-get update && apt-get inst
+RUN apt-get update 
+RUN apt-get install -y curl vim git iproute iproute2 openssh-server
 ```
