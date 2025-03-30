@@ -23,9 +23,8 @@ wget https://github.com/xm1k3/cent/releases/download/v1.3.4/cent_1.3.4_linux_amd
 unzip cent_1.3.4_linux_amd64.zip
 
 cp cent /bin/cent
-
 cent init
-
+vi /home/kali/.cent.yaml
 
 # Clone and insert nuclei templates into the a folder called 'nuclei-templates'
 cent -p nuclei-templates
