@@ -12,4 +12,6 @@ Goal is to expose only one port (80), so we can use it for CTFD docker, have mul
     - sitemap.xml
 
 - Privilege Escalation:
-	- Writable /etc/
+	- Writable /etc/passwd
+	- SETUID binary
+	- Root crontab running script
