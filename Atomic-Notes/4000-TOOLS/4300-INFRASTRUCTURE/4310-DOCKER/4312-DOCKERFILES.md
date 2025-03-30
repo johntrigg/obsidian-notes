@@ -2,6 +2,11 @@ A dockerfile is often used with [[4311-DOCKER]] as a way to automate the buildin
 
 https://docs.docker.com/reference/dockerfile/
 
+You might run a docker file with the below commands
+
+```bash
+
+```
 Below is an example of a dockerfile that would be used to create an Ubuntu image running an SSH server
 
 ```dockerfile
@@ -24,5 +29,9 @@ RUN mkdir /var/run/sshd
 # Create a new user 'test' with password 'test' 
 RUN useradd -m test && echo "test:test" | chpasswd 
 # Ensure password authentication is enabled in SSH configuration 
-RUN sed -i 's/#PasswordAuthentication yes/PasswordAuthentication yes/' /etc/ssh/sshd_config && \ sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_config # Expose port 22 for SSH connections EXPOSE 22 # Start the SSH daemon in the background, then keep the container alive by tailing /dev/null CMD /bin/bash -c "/usr/sbin/sshd && tail -f /dev/null"
+RUN sed -i 's/#PasswordAuthentication yes/PasswordAuthentication yes/' /etc/ssh/sshd_config && \ sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_config 
+# Expose port 22 for SSH connections 
+EXPOSE 22 
+# Start the SSH daemon in the background, then keep the container alive by tailing /dev/null 
+CMD /bin/bash -c "/usr/sbin/sshd && tail -f /dev/null"
 ```
