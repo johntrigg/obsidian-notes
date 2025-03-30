@@ -29,4 +29,4 @@ Goal is to expose only one port (80), so we can use it for CTFD docker, have mul
 	- 
 - -Rules
 	- Nothing destructive
-	- Do not try to make it to root user, goal is to make it to admin user who can w
+	- Do not try to make it to root user, goal is to make it to admin user who can write a bash script that controls king.txt
