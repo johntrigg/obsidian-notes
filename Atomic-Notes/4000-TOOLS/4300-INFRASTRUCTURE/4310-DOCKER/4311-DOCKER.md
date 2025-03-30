@@ -12,6 +12,8 @@ There are three core concepts:
 ```bash
 # Install docker 
 sudo apt install docker.io -y
+
+# Install
 ```
 
 ## Useful Commands

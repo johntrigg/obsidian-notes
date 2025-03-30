@@ -30,6 +30,16 @@ Goal is to expose only one port (80), so we can use it for CTFD docker, have mul
 Vulnerable site hosted at 
 https://github.com/johntrigg/vuln-site
 
+```bash
+# Clone the site and cd in
+git clone https://github.com/johntrigg/vuln-site.git
+cd vuln-site
+
+# Build and run the container
+docker-compose up --build -d
+
+```
+
 ### Files
 The dockerfile
 ```dockerfile
