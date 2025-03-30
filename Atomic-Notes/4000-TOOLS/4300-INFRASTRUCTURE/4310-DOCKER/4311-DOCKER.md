@@ -22,8 +22,8 @@ docker images
 # Launching hello world test image
 docker run hello-world
 
-# 
-docker run -d -p 5000:5000 --name my-running-app my-app-image
+# Create a container called 'my-running-app' using the ubuntu-
+docker run -d -p 5000:5000 --name my-running-app ubuntu:latest
 
 # Check for images (running or not)
 docker ps -a
