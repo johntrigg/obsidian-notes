@@ -1,4 +1,11 @@
-Docker is used to run images, small versions of an operating software, or applications.
+Docker is used to run images, small versions of an operating software, or applications. 
+
+There are three core concepts:
+
+- There are three core concepts:
+    1. Docker images (Like ubuntu), immutab
+    2. Item 2
+    3. 
 
 
 ## Installing Docker
