@@ -4,7 +4,7 @@ There are three core concepts:
 
 - There are three core concepts:
     1. Docker Images - (Like ubuntu:latest), immutable blueprints or bases
-    2. Docker Containers - Portable instances of images used to run applications
+    2. Docker Containers - Portable runtime instances of images used to run applications
     3. Docker Daemon - Service used to manage images and containers
 
 
@@ -21,6 +21,9 @@ docker images
 
 # Launching hello world test image
 docker run hello-world
+
+# 
+docker run -d -p 5000:5000 --name my-running-app my-app-image
 
 # Check for images (running or not)
 docker ps -a
