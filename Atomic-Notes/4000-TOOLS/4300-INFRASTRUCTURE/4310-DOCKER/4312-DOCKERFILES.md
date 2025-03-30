@@ -13,5 +13,8 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 # Install core utilities
 RUN apt-get update 
-RUN apt-get install -y curl vim git iproute iproute2 openssh-server
+RUN apt-get install -y curl vim git iproute iproute2 --ignore-missing
+
+# Install the openSSH server
+RUN apt-get install -y openssh-server
 ```
