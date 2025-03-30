@@ -2,8 +2,15 @@ A dockerfile is often used with [[4311-DOCKER]] as a way to automate the buildin
 
 https://docs.docker.com/reference/dockerfile/
 
-Below is an example of a dockerfile that would be used
+Below is an example of a dockerfile that would be used to create an Ubuntu image running an SSH server
 
-```
-# FILENAME: Dockerfile FROM ubuntu:latest
+```dockerfile
+# FILENAME: Dockerfile 
+FROM ubuntu:latest
+
+# Set environment variable to avoid interactive prompts during package installation 
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Install core utilities
+RUN apt-get update && apt-get inst
 ```
