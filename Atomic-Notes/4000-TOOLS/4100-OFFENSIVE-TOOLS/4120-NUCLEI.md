@@ -15,4 +15,6 @@ https://github.com/xm1k3/cent
 # Install
 go install -v github.com/xm1k3/cent@latest
 
+# Clone and insert nuclei templates into the a folder called 'nuclei-templates'
+cent -p nuclei-templates
 ```
