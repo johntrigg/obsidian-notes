@@ -30,3 +30,23 @@ Goal is to expose only one port (80), so we can use it for CTFD docker, have mul
 - -Rules
 	- Nothing destructive
 	- Do not try to make it to root user, goal is to make it to admin user who can write a bash script that controls king.txt
+
+
+
+
+### Files
+The dockerfile
+```dockerfile
+FROM php:8.2-apache
+
+RUN apt-get update && \
+    apt-get install -y procps && \
+    docker-php-ext-install pdo pdo_mysql && \
+    mkdir /var/www/html/uploads && \
+    chmod 777 /var/www/html/uploads
+
+COPY www/ /var/www/html/
+
+EXPOSE 80
+
+```
