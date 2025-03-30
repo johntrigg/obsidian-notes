@@ -8,7 +8,7 @@ You might run a docker file with the below commands
 # Use Dockerfile in current directory to make a docker instance called my-ubuntu-image
 docker build -t my-ubuntu-image .
 ```
-Below is an example of a dockerfile (filename: Dockerfile`)that would be used to create an Ubuntu image running an SSH server
+Below is an example of a dockerfile (filename: `Dockerfile`)that would be used to create an Ubuntu image running an SSH server
 
 ```dockerfile
 # FILENAME: Dockerfile 
