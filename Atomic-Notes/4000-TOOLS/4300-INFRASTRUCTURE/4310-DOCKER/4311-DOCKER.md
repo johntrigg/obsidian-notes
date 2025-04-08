@@ -32,7 +32,7 @@ docker run -d -p 22:5000 --name my-running-app ubuntu:latest
 docker ps -a
 
 # Get a shell on container id '74cc54e27dc4'
-docker exec -it 74cc54e27dc4 sh
+docker exec -it 74cc54e27dc4 bash
 
 # Getting ubuntu docker
 docker pull ubuntu
