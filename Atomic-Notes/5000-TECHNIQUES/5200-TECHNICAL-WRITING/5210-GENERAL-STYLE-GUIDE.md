@@ -29,4 +29,4 @@ Do you want a table of contents? You do. How do you want to label vulnerabilitie
 
 
 ## Document Styling
-Always spell out acronyms
+Always spell out acronyms first, ie Remote Code Execution (RCE),
