@@ -20,4 +20,12 @@ Density vs practicality. There's a lot of fields you could include. Honestly, mo
 ## Document Ordering
 Do you want a table of contents? You do. How do you want to label vulnerabilities? I personally like
 
-Cr
+- Vulnerabilities
+    1. Critical
+	    1. C001 - Domain Administrator Null Session
+	2. High 
+		1. H001 - Apache Shellshock Remote Code Execution
+
+
+
+#  
