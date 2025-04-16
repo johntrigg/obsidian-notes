@@ -16,3 +16,8 @@ Density vs practicality. There's a lot of fields you could include. Honestly, mo
     5. Title
     6. Affected Systems
     7. 
+
+## Document Ordering
+Do you want a table of contents? You do. How do you want to label vulnerabilities? I personally like
+
+Cr
