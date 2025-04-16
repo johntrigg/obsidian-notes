@@ -5,4 +5,9 @@ There are a lot of considerations that should be made. Below are a collection of
 ## Vulnerability Reporting
 What language does the client want? Do they want the word "Weakness", "Technical Vulnerability", or something else entirely?
 
-Density vs practicality. There's a lot of fields you could include. Honestly, most are useless and only make the report look better.
+Density vs practicality. There's a lot of fields you could include. Honestly, most are useless and only make the report look better. I personally like the design of having a table with the shorthand information, and going into detail below.
+
+## Potential Information Fields
+- Ordered:
+    1. Item 1
+    2. Item 2
