@@ -9,5 +9,8 @@ Density vs practicality. There's a lot of fields you could include. Honestly, mo
 
 ## Potential Information Fields
 - Ordered:
-    1. Item 1
-    2. Item 2
+    1. CVSS Score, Severity, and String
+    2. NIST Mappings
+    3. MITRE ATT&CK Mappings
+    4. Remediation Difficulty
+    5. 
