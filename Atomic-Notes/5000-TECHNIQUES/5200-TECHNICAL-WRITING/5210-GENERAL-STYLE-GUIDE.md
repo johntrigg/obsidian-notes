@@ -13,4 +13,6 @@ Density vs practicality. There's a lot of fields you could include. Honestly, mo
     2. NIST Mappings
     3. MITRE ATT&CK Mappings
     4. Remediation Difficulty
-    5. 
+    5. Title
+    6. Affected Systems
+    7. 
