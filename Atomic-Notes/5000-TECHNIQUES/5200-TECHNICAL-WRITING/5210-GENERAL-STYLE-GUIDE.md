@@ -14,7 +14,7 @@ Density vs practicality. There's a lot of fields you could include. Honestly, mo
     3. MITRE ATT&CK Mappings
     4. Remediation Difficulty
     5. Title
-    6. Affected Systems
+    6. Affected Systems (Hostnames, FQDN, Subnet)
     7. 
 
 ## Document Ordering
@@ -22,7 +22,7 @@ Do you want a table of contents? You do. How do you want to label vulnerabilitie
 
 - Vulnerabilities
     1. Critical
-	    1. C001 - Domain Administrator Null Session
+	    1. C001 - Domain Administrator Null Session on DC-EAST-2
 	2. High 
 		1. H001 - Apache Shellshock Remote Code Execution
 
