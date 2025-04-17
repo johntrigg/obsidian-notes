@@ -24,7 +24,7 @@ Do you want a table of contents? You do. How do you want to label vulnerabilitie
     1. Critical
 	    1. C001 - Domain Administrator Null Session on DC-EAST-2
 	2. High 
-		1. H001 - Apache Shellshock Remote Code Execution
+		1. H001 - Apache Shellshock Remote Code Execution on ServiceNow Website
 
 
 
