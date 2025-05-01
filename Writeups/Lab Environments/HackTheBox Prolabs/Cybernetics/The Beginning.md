@@ -3,7 +3,7 @@ We begin with our nmap scan of the beginning subnet.
 sudo nmap -sC -sV -v -p- -o nmap 10.10.110.0/24 --min-rate 10000
 ```
 
-We'll also run a few quick netexec checks.
+We'll also run a few quick netexec checks, but these don't return anything.
 ```
 # Guest Login
 netexec smb 10.10.110.0/24 -u 'guest' -p ''
