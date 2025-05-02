@@ -7,5 +7,5 @@ sudo apt install gofinder -y
 Very good for passive and recursive subdomain enumeration
 
 ```bash
-
+subfinder -d example.com -recursive -all -m 'development'
 ```
