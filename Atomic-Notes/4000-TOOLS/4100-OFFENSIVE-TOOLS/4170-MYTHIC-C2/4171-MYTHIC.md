@@ -24,8 +24,11 @@ Now we can run Mythic for the first time
 sudo -E ./mythic-cli start
 
 # The config file is stored here if we want to modify it
-vi Mythic/.env/config.txt
+vi Mythic/.env
 
+# We need to install agents
+# We'll start with Poseidon, used for Mac and Linux
+sudo ./mythic-cli install github https://github.com/MythicAgents/Poseidon
 ```
 ## References
 https://redsiege.com/blog/2023/06/introduction-to-mythic-c2/
