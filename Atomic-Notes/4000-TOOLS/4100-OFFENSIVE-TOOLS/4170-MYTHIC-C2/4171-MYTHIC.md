@@ -7,6 +7,7 @@ Mythic is a C2 server, used to deploy and control agents often used for AV evasi
 # Install docker
 sudo apt update -y
 sudo apt install docker -y
+sudo apt install docker.io -y
 sudo apt install docker-compose -y
 
 # Git clone
