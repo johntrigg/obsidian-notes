@@ -29,6 +29,9 @@ vi Mythic/.env
 # We need to install agents
 # We'll start with Poseidon, used for Mac and Linux
 sudo ./mythic-cli install github https://github.com/MythicAgents/Poseidon
+
+# We'll also need to install the http profile.
+sudo ./mythic-cli install github https://github.com/MythicC2Profiles/http
 ```
 
 ## Web Interface
