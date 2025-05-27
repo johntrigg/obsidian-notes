@@ -43,6 +43,7 @@ cat Mythic/.env | grep -i 'password'
 sudo ./mythic-cli restart
 ```
 
+We can click 'Create Your First Payload'
 ![[Pasted image 20250526215029.png]]
 ## References
 https://redsiege.com/blog/2023/06/introduction-to-mythic-c2/
