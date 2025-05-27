@@ -30,5 +30,9 @@ vi Mythic/.env
 # We'll start with Poseidon, used for Mac and Linux
 sudo ./mythic-cli install github https://github.com/MythicAgents/Poseidon
 ```
+
+## Web Interface
+This is where can manage a lot of things. It's accessed at
+`https://127.0.0.1:7443` by default
 ## References
 https://redsiege.com/blog/2023/06/introduction-to-mythic-c2/
