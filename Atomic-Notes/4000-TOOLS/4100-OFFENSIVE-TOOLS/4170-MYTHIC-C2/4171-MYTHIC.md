@@ -55,7 +55,7 @@ Additionally, changing the callback details is necessary
 ![[Pasted image 20250526215701.png]]
 We should be able to use our IP here, and port 80 is the default port. Even though we're not using HTTP/S, the traffic itself will be encrypted.
 ![[Pasted image 20250526215905.png]]
-	We can see our page on the 'payloads' page
+We can see our page on the 'payloads' page
 ![[Pasted image 20250526220223.png]]
 ## References
 https://redsiege.com/blog/2023/06/introduction-to-mythic-c2/
