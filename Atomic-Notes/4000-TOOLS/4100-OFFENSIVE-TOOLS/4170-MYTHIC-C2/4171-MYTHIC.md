@@ -53,7 +53,7 @@ We can leave most of this stuff unchanged, except maybe statically compile the p
 Additionally, changing the callback details is necessary
 
 ![[Pasted image 20250526215701.png]]
-We should be able to use our IP here, and port 80 is the default port.
+We should be able to use our IP here, and port 80 is the default port. Even though we're not using HTTP/S, the traffic itself will be encrypted.
 ![[Pasted image 20250526215905.png]]
 
 ## References
