@@ -63,5 +63,9 @@ We can see our page on the 'payloads' page
 
 We can just download and execute it. My first ever C2 beacon callback.
 ![[Pasted image 20250526224612.png]]
+
+
+## Windows Beacon
+Run it in a good directory (C:\Windows\Tasks), (C:\Users\Public). 
 ## References
 https://redsiege.com/blog/2023/06/introduction-to-mythic-c2/
