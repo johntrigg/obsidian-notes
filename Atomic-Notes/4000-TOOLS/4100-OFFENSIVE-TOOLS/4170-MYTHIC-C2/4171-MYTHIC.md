@@ -13,6 +13,8 @@ sudo apt install docker-compose -y
 git clone https://github.com/its-a-feature/Mythic
 cd Mythic
 
+# We need to make the binary, from the makefile in the Mythic directory.
+sudo make
 ```
 ## References
 https://redsiege.com/blog/2023/06/introduction-to-mythic-c2/
