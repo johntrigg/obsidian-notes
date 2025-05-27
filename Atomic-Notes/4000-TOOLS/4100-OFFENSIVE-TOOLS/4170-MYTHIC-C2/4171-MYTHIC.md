@@ -42,5 +42,7 @@ cat Mythic/.env | grep -i 'password'
 # If we wanted to, we could modify these, then restart Mythic
 sudo ./mythic-cli restart
 ```
+
+![[Pasted image 20250526215029.png]]
 ## References
 https://redsiege.com/blog/2023/06/introduction-to-mythic-c2/
