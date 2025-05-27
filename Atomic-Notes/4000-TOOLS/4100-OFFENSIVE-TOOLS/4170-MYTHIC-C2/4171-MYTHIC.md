@@ -50,5 +50,8 @@ sudo ./mythic-cli restart
 We can click 'Create Your First Payload'
 ![[Pasted image 20250526215029.png]]
 We can leave most of this stuff unchanged, except maybe statically compile the payload.
+Additionally, changing the callback details is necessary
+
+![[Pasted image 20250526215701.png]]
 ## References
 https://redsiege.com/blog/2023/06/introduction-to-mythic-c2/
