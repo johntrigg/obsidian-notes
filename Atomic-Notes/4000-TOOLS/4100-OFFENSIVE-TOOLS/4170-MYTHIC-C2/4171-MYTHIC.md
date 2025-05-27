@@ -30,6 +30,8 @@ vi Mythic/.env
 # We'll start with Poseidon, used for Mac and Linux
 sudo ./mythic-cli install github https://github.com/MythicAgents/Poseidon
 
+# Install Apollo for use on Windows
+sudo ./mythic-cli install github https://github.com/MythicAgents/Poseidon
 # We'll also need to install the http profile.
 sudo ./mythic-cli install github https://github.com/MythicC2Profiles/http
 ```
@@ -57,5 +59,8 @@ We should be able to use our IP here, and port 80 is the default port. Even thou
 ![[Pasted image 20250526215905.png]]
 We can see our page on the 'payloads' page
 ![[Pasted image 20250526220223.png]]
+
+We can just download and execute it. My first ever C2 beacon callback.
+![[Pasted image 20250526224612.png]]
 ## References
 https://redsiege.com/blog/2023/06/introduction-to-mythic-c2/
