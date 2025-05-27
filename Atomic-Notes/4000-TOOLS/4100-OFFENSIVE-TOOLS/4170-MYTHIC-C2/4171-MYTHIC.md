@@ -21,7 +21,11 @@ sudo make
 Now we can run Mythic for the first time
 ```bash
 # Run Mythic for the first time
-sudo -E ./mythic-cli
+sudo -E ./mythic-cli start
+
+# The config file is stored here if we want to modify it
+vi Mythic/.env/config.txt
+
 ```
 ## References
 https://redsiege.com/blog/2023/06/introduction-to-mythic-c2/
