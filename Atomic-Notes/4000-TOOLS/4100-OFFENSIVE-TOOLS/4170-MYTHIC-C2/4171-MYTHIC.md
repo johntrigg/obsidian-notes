@@ -31,7 +31,8 @@ vi Mythic/.env
 sudo ./mythic-cli install github https://github.com/MythicAgents/Poseidon
 
 # Install Apollo for use on Windows
-sudo ./mythic-cli install github https://github.com/MythicAgents/Poseidon
+sudo ./mythic-cli install github https://github.com/MythicAgents/Apollo
+
 # We'll also need to install the http profile.
 sudo ./mythic-cli install github https://github.com/MythicC2Profiles/http
 ```
