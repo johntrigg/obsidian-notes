@@ -11,6 +11,8 @@ sudo apt install docker-compose -y
 
 # Git clone
 git clone https://github.com/its-a-feature/Mythic
+cd Mythic
+
 ```
 ## References
 https://redsiege.com/blog/2023/06/introduction-to-mythic-c2/
