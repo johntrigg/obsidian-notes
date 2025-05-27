@@ -73,7 +73,8 @@ Start-Process beacon.exe
 ```
 
 
-
+## Register Assembly
+We can put dotnet binaries into the agent. This is an opsec effective way of executing 
 
 ## References
 https://redsiege.com/blog/2023/06/introduction-to-mythic-c2/
