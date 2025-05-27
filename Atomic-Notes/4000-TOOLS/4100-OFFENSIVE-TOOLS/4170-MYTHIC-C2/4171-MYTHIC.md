@@ -34,5 +34,10 @@ sudo ./mythic-cli install github https://github.com/MythicAgents/Poseidon
 ## Web Interface
 This is where can manage a lot of things. It's accessed at
 `https://127.0.0.1:7443` by default
+We'll find our admin credentials in the .env file
+```bash
+cat Mythic/.env | grep -i 'user'
+cat Mythic/.env | grep -i 'password'
+```
 ## References
 https://redsiege.com/blog/2023/06/introduction-to-mythic-c2/
