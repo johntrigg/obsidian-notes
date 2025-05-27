@@ -67,5 +67,13 @@ We can just download and execute it. My first ever C2 beacon callback.
 
 ## Windows Beacon
 Run it in a good directory (C:\Windows\Tasks), (C:\Users\Public). 
+
+```powershell
+Start-Process beacon.exe
+```
+
+
+
+
 ## References
 https://redsiege.com/blog/2023/06/introduction-to-mythic-c2/
