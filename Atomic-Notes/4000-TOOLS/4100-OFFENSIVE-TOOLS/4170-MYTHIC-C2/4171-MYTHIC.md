@@ -53,5 +53,8 @@ We can leave most of this stuff unchanged, except maybe statically compile the p
 Additionally, changing the callback details is necessary
 
 ![[Pasted image 20250526215701.png]]
+We should be able to use our IP here, and port 80 is the default port.
+![[Pasted image 20250526215905.png]]
+
 ## References
 https://redsiege.com/blog/2023/06/introduction-to-mythic-c2/
