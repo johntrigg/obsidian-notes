@@ -2,7 +2,9 @@ rustyneedle is a python script used to modify raw shellcode, and provide an exec
 
 https://codeberg.org/mttaggart/rustyneedle
 
-There's a few things we have to do. We have to use 
+There's a few things we have to do. We have to install rust, modify the  src/main.rs file to our options
+
+Specifically, modify the number of base64 iterations, and where the shellcode is downloaded from.
 
 ```
 # Create raw shellcode, like with C2 Mythic. It will be an output option, .bin extension
