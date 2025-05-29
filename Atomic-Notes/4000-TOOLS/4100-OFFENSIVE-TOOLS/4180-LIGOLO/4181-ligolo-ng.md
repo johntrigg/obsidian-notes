@@ -1,6 +1,6 @@
 //TODO: UPDATE ESPANSO TO USE MODERN LIGOLO WINDOWS AGENT, LINUX AGENT, AND LINUX SERVER
 
-Ligolo is used for pivoting. We can install it with the below commands.
+Ligolo is used for pivoting. We can install it with the below commands, and rename it to make the names more obvious
 
 ```bash
 # Get windows agent, extract it, and rename it
@@ -17,7 +17,7 @@ wget https://github.com/nicocha30/ligolo-ng/releases/download/v0.8.2/ligolo-ng_a
 
 There's two parts: a proxy server running on our attack machine, and agents running on compromised machines. The agents will call back to the attacking machine's proxy server.
 
-We can setup our proxy server like so, to add the ligolo interface, set it up, and then run the ****
+We can setup our proxy server like so, to add the ligolo interface, set it up, and then run the proxy server, which will listen on port 443 for connections.
 ```bash
 sudo ip tuntap add user kali mode tun ligolo ; sudo ip link set ligolo up && sudo ./proxy -selfcert -laddr 0.0.0.0:443
 ```
