@@ -7,7 +7,7 @@ https://codeberg.org/mttaggart/rustyneedle
 git clone https://codeberg.org/mttaggart/rustyneedle.git
 
 # Install rust
-curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+sudo apt install rustup -y
 ```
 There's a few things we have to do. We have to install rust, modify the  src/main.rs file to our options
 
