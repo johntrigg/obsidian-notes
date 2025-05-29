@@ -15,4 +15,4 @@ wget https://github.com/nicocha30/ligolo-ng/releases/download/v0.8.2/ligolo-ng_a
 
 ```
 
-There's two parts: a proxy server running on our attack machine
+There's two parts: a proxy server running on our attack machine, and agents running on compromised machines. The agents will call back to the attacking machine's proxy server.
