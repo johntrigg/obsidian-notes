@@ -8,6 +8,10 @@ git clone https://codeberg.org/mttaggart/rustyneedle.git
 
 # Install rust
 sudo apt install rustup -y
+rustup default stable
+
+# Set the compilation target, in this case 64 bit Windows
+rustup target add x86_64-pc-windows-gnu
 ```
 There's a few things we have to do. We have to install rust, modify the  src/main.rs file to our options
 
