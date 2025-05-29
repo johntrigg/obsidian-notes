@@ -36,7 +36,7 @@ sudo ./mythic-cli install github https://github.com/MythicAgents/Apollo
 # We'll also need to install the http profile.
 sudo ./mythic-cli install github https://github.com/MythicC2Profiles/http
 ```
-The 'installed services' tab is improtant, we can see what all is installed.
+The 'installed services' tab is important, we can see what all is installed.
 ![[Pasted image 20250526215523.png]]
 ## Web Interface
 This is where can manage a lot of things. It's accessed at
