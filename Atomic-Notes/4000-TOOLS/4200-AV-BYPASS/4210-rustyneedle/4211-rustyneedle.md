@@ -13,14 +13,15 @@ Take note of lines 10 and 12
 ![[Pasted image 20250529002207.png]]
 
 Now, we need to make our encoded shellcode.
-```
+```bash
 # Create raw shellcode, like with C2 Mythic. It will be an output option, .bin extension
 cd rustyneedle
 cp ~/c2/shellcode.bin .
 
 # Encode the shellcode. note that the output file name is note.txt
-python3 encode.py ../shellcode.bin 3 note.txt
+python3 rustyneedle/encode.py shellcode.bin 3 note.txt
 
+# Compile the main.rs dropper
 
 ```
 
