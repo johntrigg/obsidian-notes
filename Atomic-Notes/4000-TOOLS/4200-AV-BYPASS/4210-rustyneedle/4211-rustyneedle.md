@@ -3,7 +3,11 @@ rustyneedle is a python script used to modify raw shellcode, and provide an exec
 https://codeberg.org/mttaggart/rustyneedle
 
 ```
+# Clone the repo
 git clone https://codeberg.org/mttaggart/rustyneedle.git
+
+# Install rust
+curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
 ```
 There's a few things we have to do. We have to install rust, modify the  src/main.rs file to our options
 
