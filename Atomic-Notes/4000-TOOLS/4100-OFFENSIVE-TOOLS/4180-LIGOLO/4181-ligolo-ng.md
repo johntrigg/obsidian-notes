@@ -20,4 +20,6 @@ There's two parts: a proxy server running on our attack machine, and agents runn
 We can setup our proxy server like so, to add the ligolo interface, set it up, and then run the proxy server, which will listen on port 443 for connections.
 ```bash
 sudo ip tuntap add user kali mode tun ligolo ; sudo ip link set ligolo up && sudo ./proxy -selfcert -laddr 0.0.0.0:443
+
+
 ```
