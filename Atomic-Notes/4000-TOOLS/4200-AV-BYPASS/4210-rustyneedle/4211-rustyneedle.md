@@ -6,6 +6,7 @@ https://codeberg.org/mttaggart/rustyneedle
 # Create raw shellcode, like with C2 Mythic. It will be an output option, .bin extension
 git clone https://codeberg.org/mttaggart/rustyneedle.git
 cd rustyneedle
+cp ~/c2/shellcode.bin .
 
 
 ```
