@@ -18,7 +18,7 @@ Now, we need to make our encoded shellcode.
 cd rustyneedle
 cp ~/c2/shellcode.bin .
 
-# Encode the shellcode
+# Encode the shellcode. note that the output file name is note.txt
 python3 encode.py ../shellcode.bin 3 note.txt
 
 
