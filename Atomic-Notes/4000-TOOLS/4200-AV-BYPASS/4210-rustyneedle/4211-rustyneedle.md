@@ -10,7 +10,7 @@ git clone https://codeberg.org/mttaggart/rustyneedle.git
 sudo apt install rustup -y
 rustup default stable
 
-# Set the compilation target, in this case 64 bit Windows
+# Set the compilation target, and add it in this case 64 bit Windows
 rustup target add x86_64-pc-windows-gnu
 ```
 There's a few things we have to do. We have to install rust, modify the  src/main.rs file to our options
@@ -30,6 +30,9 @@ cp ~/c2/shellcode.bin .
 python3 rustyneedle/encode.py shellcode.bin 3 note.txt
 
 # Compile the main.rs dropper
+
+# Navigate the binary
+cd target/x86_64-pc-windows-gnu/release
 
 ```
 
