@@ -53,5 +53,9 @@ netstat -antopul
 
 ## Adding a New Operator
 ```bash
-[server] sliver > new-operator -n attacker
+cd ~
+sliver-server
+[server] sliver > new-operator -n attacker -l tun0
+
+mv /vpn/attacker_tun0.cfg
 ```
