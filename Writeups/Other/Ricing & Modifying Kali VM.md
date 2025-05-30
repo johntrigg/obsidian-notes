@@ -82,4 +82,8 @@ fastfetch
 ## Configure Terminator
 ```bash
 mkdir -p ~/.config/terminator
+
+cd ~/.config/terminator/ 
+wget https://raw.githubusercontent.com/johntrigg/triggonometry-kali-config/refs/heads/main/configurationFiles/terminatorConfig 
+mv terminatorConfig config
 ```
