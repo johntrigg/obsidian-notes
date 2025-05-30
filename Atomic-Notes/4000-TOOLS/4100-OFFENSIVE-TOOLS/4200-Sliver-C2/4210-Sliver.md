@@ -7,7 +7,7 @@ chmod 755 /bin/sliver-server
 wget -O /bin/sliver https://github.com/BishopFox/sliver/releases/download/v1.5.17/sliver-client_linux 
 chmod 755 /bin/sliver
 
-# Unpack assets
+# Unpack assets, as user
 sliver-server unpack --force
 
 # Windows C Compiler
