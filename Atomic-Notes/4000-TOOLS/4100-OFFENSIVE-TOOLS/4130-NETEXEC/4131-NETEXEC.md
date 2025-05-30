@@ -40,5 +40,10 @@ netexec ldap target -u username -p password --kerberoasting hash.txt
 netexec ldap target -u username -p password --asreproast hash.txt
 ```
 
+## Auto Generate Hosts File
+```bash
+netexec smb 10.9.20.12 -u svc_sql -p ef8Mahvae2j1 --generate-hosts hosts.txt
+```
+
 ## Resources
 https://seriotonctf.github.io/2024/03/07/CrackMapExec-and-NetExec-Cheat-Sheet/
