@@ -68,3 +68,9 @@ sliver import attacker_0.0.0.0.cfg
 
 
 ```
+
+## Armory
+Sliver's armory is a plugin 
+```bash
+
+```
