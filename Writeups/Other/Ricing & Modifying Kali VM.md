@@ -65,7 +65,7 @@ curl -O https://raw.githubusercontent.com/KorvinSilver/blokkzh/master/blokkzh-do
 ```
 ## .zshrc file
 ~/.zshrc
-
+Paste to the bottom
 ```
 if [ "$TMUX" = "" ]; then
     tmux
