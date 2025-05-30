@@ -88,3 +88,5 @@ wget -O ~/.config/terminator/config https://raw.githubusercontent.com/johntrigg/
 
 # Modify font size as needed
 ```
+
+## Espanso
