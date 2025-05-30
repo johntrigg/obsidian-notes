@@ -29,6 +29,6 @@ xfconf-query -c xsettings -p /Net/ThemeName -s "Sweet-Dark-v40"
 
 # Make vpn directory
 
-mkdir /vpn
+sudo mkdir -p /vpn && sudo chmod 777 /vpn
 
 ```
