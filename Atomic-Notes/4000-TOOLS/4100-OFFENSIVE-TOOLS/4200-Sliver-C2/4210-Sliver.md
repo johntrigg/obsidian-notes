@@ -55,7 +55,10 @@ netstat -antopul
 ```bash
 cd ~
 sliver-server
+# Review command
+[server] sliver > help new-operator
 [server] sliver > new-operator -n attacker -l tun0
 
+[server] sliver > new-operator -n attacker -l 0.0.0.0
 mv /vpn/attacker_tun0.cfg
 ```
