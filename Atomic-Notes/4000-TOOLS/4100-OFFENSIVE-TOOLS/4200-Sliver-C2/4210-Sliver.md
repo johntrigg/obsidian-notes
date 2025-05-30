@@ -44,4 +44,7 @@ chmod 600 /etc/systemd/system/sliver.service
 systemctl enable sliver && systemctl start sliver
 
 # If you run into errors, it might be because sliver files already exist on your system, in /home/kali/.sliver, /root/.sliver, and ~/.sliver
+
+# Check that the server is up
+netstat -antopul
 ```
