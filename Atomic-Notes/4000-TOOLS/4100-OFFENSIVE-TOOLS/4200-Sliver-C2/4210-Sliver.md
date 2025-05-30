@@ -17,3 +17,28 @@ sudo apt install mingw-w64
 
 ```
 We can make it run on startup by making a service
+```bash
+vi /etc/systemd/system/sliver.service
+# Paste below file
+```
+
+```
+[Unit]
+Description=Sliver
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=on-failure
+RestartSec=3
+User=root
+ExecStart=/usr/local/bin/sliver-server daemon
+
+[Install]
+WantedBy=multi-user.target
+```
+Then
+```bash
+chmod 600 /etc/systemd/system/sliver.service
+```
