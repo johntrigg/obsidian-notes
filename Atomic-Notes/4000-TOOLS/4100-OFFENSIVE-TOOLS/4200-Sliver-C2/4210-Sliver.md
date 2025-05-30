@@ -92,7 +92,7 @@ sliver > generate beacon --http 127.0.0.1 --name http_beacon --os windows
 
 ## Setting up a Listener
 ```bash
-http --lport 8088
+http --lport 80
 ```
 ## Cheatsheet
 
