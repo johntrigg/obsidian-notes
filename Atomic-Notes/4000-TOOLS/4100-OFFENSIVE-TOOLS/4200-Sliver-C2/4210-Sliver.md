@@ -47,4 +47,11 @@ systemctl enable sliver && systemctl start sliver
 
 # Check that the server is up
 netstat -antopul
+
+
+```
+
+## Adding a New Operator
+```bash
+[server] sliver > new-operator -n attacker
 ```
