@@ -61,5 +61,10 @@ sliver-server
 
 [server] sliver > new-operator -n attacker2 -l 0.0.0.0
 [server] sliver > multiplayer
-mv /vpn/attacker_tun0.cfg
+
+# New session
+# Import the attacker config
+sliver import attacker_0.0.0.0.cfg
+
+
 ```
