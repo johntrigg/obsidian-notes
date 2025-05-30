@@ -1,8 +1,7 @@
 ## Installing Sliver
 ```bash
 
-# Remove existing sliver stuff
-sudo su
+# Remove existing sliver stuff, run as sudo
 rm /bin/sliver
 rm /bin/sliver-server
 rm -rf /root/.sliver
@@ -16,11 +15,13 @@ chmod 755 /bin/sliver-server
 wget -O /bin/sliver https://github.com/BishopFox/sliver/releases/download/v1.5.43/sliver-client_linux
 chmod 755 /bin/sliver
 
+# Windows C Compiler
+sudo apt install mingw-w64
+
+# Run as normal
 # Unpack assets, as user
 sliver-server unpack --force
 
-# Windows C Compiler
-sudo apt install mingw-w64
 
 
 
