@@ -82,6 +82,13 @@ sliver > armory
 sliver > armory install all
 ```
 
+
+## Generating Beacons
+There's a lot of factors.
+```bash
+
+```
+
 ## Cheatsheet
 
 | **Command**                                                               | **Description**                                              |
