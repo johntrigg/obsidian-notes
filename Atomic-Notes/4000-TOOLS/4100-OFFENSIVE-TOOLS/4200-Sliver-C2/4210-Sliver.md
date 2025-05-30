@@ -126,6 +126,9 @@ sliver > use c44362b7
 
 # List common commands
 sliver > help
+
+# Upload a file
+
 ```
 ## Cheatsheet
 
