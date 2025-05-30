@@ -57,10 +57,13 @@ cd ~
 sliver-server
 # Review command
 [server] sliver > help new-operator
+# Listen on specific IP
 [server] sliver > new-operator -n attacker -l tun0
 
+# More generous allow
+
 [server] sliver > new-operator -n attacker2 -l 0.0.0.0
-# Enable multi
+# Enable multiplayer
 [server] sliver > multiplayer
 
 # New session
