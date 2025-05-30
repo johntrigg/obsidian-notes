@@ -1,5 +1,9 @@
 ## Installing Sliver
 ```bash
+# Below is the easy way
+wget https://github.com/BishopFox/sliver/releases/download/v1.5.43/sliver-client_linux
+chmod +x /s
+# Below is the 'proper way'
 # As root
 curl https://sliver.sh/install | sudo bash
 
