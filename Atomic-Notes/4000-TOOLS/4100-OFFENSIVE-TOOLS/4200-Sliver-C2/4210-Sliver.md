@@ -1,10 +1,11 @@
 ## Installing Sliver
 ```bash
 # Below is the easy way
-wget -O /bin/sliver-server https://github.com/BishopFox/sliver/releases/download/v1.5.17/sliver-server_linux 
+####### IF YOU DO IT BELOW, BEWARE OF ERRORS WITH OUTDATED VERSIONS DUE TO HARDCODED VERSION IN WGET URL ##################
+wget -O /bin/sliver-server https://github.com/BishopFox/sliver/releases/download/v1.5.43/sliver-server_linux 
 chmod 755 /bin/sliver-server
 
-wget -O /bin/sliver https://github.com/BishopFox/sliver/releases/download/v1.5.17/sliver-client_linux 
+wget -O /bin/sliver https://github.com/BishopFox/sliver/releases/download/v1.5.43/sliver-client_linux
 chmod 755 /bin/sliver
 
 # Unpack assets, as user
