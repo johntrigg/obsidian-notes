@@ -128,6 +128,9 @@ sliver > use c44362b7
 sliver > help
 
 # Upload a file
+upload /home/kali/work/prolab/ligolo/ligolo-windows-agent.exe C:\Windows\Tasks\ligolo-windows-agent.exe
+
+# Run a command
 
 ```
 ## Cheatsheet
