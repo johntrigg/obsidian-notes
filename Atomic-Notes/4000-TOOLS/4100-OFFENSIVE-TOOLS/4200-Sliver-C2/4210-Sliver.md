@@ -113,7 +113,7 @@ sliver > generate beacon --http 127.0.0.1:443 --name httpbeacon443 --os windows
 
 ## Setting up a Listener
 ```bash
-http --lport 80
+sliver > http --lport 443
 ```
 ## Cheatsheet
 
