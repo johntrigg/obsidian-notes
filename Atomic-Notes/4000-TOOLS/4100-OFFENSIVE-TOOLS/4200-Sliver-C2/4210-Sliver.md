@@ -118,8 +118,9 @@ sliver > http --lport 80
 
 ## Using the Beacon
 
-```
-
+```bash
+sliver > beacons
+sliver > beacons
 ```
 ## Cheatsheet
 
