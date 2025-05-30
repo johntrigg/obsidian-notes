@@ -33,7 +33,7 @@ Type=simple
 Restart=on-failure
 RestartSec=3
 User=root
-ExecStart=/usr/local/bin/sliver-server daemon
+ExecStart=/bin/sliver-server daemon
 
 [Install]
 WantedBy=multi-user.target
