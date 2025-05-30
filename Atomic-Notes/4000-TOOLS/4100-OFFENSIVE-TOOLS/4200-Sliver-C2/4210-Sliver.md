@@ -41,6 +41,5 @@ WantedBy=multi-user.target
 Then
 ```bash
 chmod 600 /etc/systemd/system/sliver.service
-systemctl enable sliver
-systemctl start sliver
+systemctl enable sliver && systemctl start sliver
 ```
