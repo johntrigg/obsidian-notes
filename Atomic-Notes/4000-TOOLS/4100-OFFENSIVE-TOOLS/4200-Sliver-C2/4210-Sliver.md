@@ -74,9 +74,12 @@ sliver import attacker_0.0.0.0.cfg
 ```
 
 ## Armory
-Sliver's armory is a plugin 
+Sliver's armory is a plugin system
 ```bash
-
+# Get help
+sliver > armory
+# Install all
+sliver > armory install all
 ```
 
 ## Cheatsheet
