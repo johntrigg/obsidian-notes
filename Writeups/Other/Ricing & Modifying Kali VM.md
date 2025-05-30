@@ -31,4 +31,6 @@ xfconf-query -c xsettings -p /Net/ThemeName -s "Sweet-Dark-v40"
 
 sudo mkdir -p /vpn && sudo chmod 777 /vpn
 
+# Navigate to power manager > display > sleep never and switch off never
+
 ```
