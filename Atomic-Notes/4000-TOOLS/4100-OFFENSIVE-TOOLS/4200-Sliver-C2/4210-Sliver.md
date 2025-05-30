@@ -74,3 +74,5 @@ Sliver's armory is a plugin
 ```bash
 
 ```
+
+## HackTheBox Cheatsheet
