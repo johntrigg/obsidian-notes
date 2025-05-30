@@ -119,8 +119,13 @@ sliver > http --lport 80
 ## Using the Beacon
 
 ```bash
+# List beacons
 sliver > beacons
-sliver > beacons
+# Load an active beacon
+sliver > use c44362b7
+
+# List common commands
+sliver > help
 ```
 ## Cheatsheet
 
