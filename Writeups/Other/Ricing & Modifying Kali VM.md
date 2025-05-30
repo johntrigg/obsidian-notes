@@ -50,5 +50,22 @@ sudo mkdir -p /vpn && sudo chmod 777 /vpn
 sudo apt-get install tmux -y
 sudo apt-get install golang -y
 sudo apt-get install terminator -y
+sudo apt-get install neofetch -y
+
+```
+
+
+## .zshrc file
+
+```
+if [ "$TMUX" = "" ]; then
+    tmux
+fi
+
+# Created by `pipx` on 2024-03-09 07:10:56
+export PATH="$PATH:/home/kali/.local/bin"
+export JAVA_HOME="$JAVA_HOME"
+
+neofetch
 
 ```
