@@ -1,5 +1,13 @@
 ## Installing Sliver
 ```bash
+
+# Remove existing sliver stuff
+sudo su
+rm /bin/sliver
+rm /bin/sliver-server
+rm -rf /root/.sliver
+rm -rf ~/.sliver
+
 # Below is the easy way
 ####### IF YOU DO IT BELOW, BEWARE OF ERRORS WITH OUTDATED VERSIONS DUE TO HARDCODED VERSION IN WGET URL ##################
 wget -O /bin/sliver-server https://github.com/BishopFox/sliver/releases/download/v1.5.43/sliver-server_linux 
