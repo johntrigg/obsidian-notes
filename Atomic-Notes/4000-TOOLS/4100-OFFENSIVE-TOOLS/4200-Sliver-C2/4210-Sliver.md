@@ -151,6 +151,14 @@ sliver > execute powershell.exe -Command "Start-Process C:\\ProgramData\\fast2.e
 # Spawn an interactive session
 
 ```
+
+
+## Shellcode
+Shellcode can be used to execute code and bypass AV's. Shellcode is usually executed by a droper.
+
+Conceptually, the shellcode is hosted somewhere (usually your own server)
+
+And the dro
 ## Cheatsheet
 
 | **Command**                                                               | **Description**                                              |
