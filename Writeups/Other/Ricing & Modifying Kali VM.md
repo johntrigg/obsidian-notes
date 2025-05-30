@@ -78,3 +78,8 @@ export JAVA_HOME="$JAVA_HOME"
 fastfetch
 
 ```
+
+## Configure Terminator
+```bash
+mkdir -p ~/.config/terminator
+```
