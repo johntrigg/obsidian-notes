@@ -153,7 +153,7 @@ sliver > execute powershell.exe -Command "Start-Process C:\\ProgramData\\fast2.e
 ```
 
 ## Implants
-
+Implants are basically a way of communicating. There are two types of implants: beacons (operate in intervals), and sessions (more immediate back and forth)
 ## Shellcode
 Shellcode can be used to execute code and bypass AV's. Shellcode is usually executed by a droper.
 
