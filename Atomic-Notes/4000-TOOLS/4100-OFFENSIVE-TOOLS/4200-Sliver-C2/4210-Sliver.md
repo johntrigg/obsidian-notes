@@ -84,10 +84,10 @@ sliver > armory install all
 
 
 ## Generating Beacons
-There's a lot of factors. The below generates a beacon that is called 'http_beacon', is a windows executable, skips symbol obfuscation, listens on 127.0.0.1 (default port 80)
+There's a lot of factors. The below generates a beacon that is called 'http_beacon', is a windows executable, listens on 127.0.0.1 (default port 80)
 ```bash
 sliver > generate beacon help
-sliver > generate beacon --http 127.0.0.1 --skip-symbols -N http_beacon --os windows
+sliver > generate beacon --http 127.0.0.1 --name http_beacon --os windows
 ```
 
 ## Cheatsheet
