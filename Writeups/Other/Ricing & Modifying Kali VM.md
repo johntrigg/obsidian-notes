@@ -27,4 +27,8 @@ sudo mv Sweet-Dark-v40 /usr/share/themes
 # Set the system theme
 xfconf-query -c xsettings -p /Net/ThemeName -s "Sweet-Dark-v40"
 
+# Make vpn directory
+
+mkdir /vpn
+
 ```
