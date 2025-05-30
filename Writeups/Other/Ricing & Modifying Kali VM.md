@@ -10,7 +10,6 @@ wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.g
 | sudo dd of=/usr/share/keyrings/vscodium-archive-keyring.gpg echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https://download.vscodium.com/debs vscodium main' \ | sudo tee /etc/apt/sources.list.d/vscodium.list sudo apt update && sudo apt install codium
 
 # Install system theme
-#!/bin/zsh
 
 # Make themes directory
 mkdir -p ~/.themes
@@ -24,8 +23,22 @@ tar -xvf Sweet-Dark-v40.tar.xz
 # Move the theme to the appropriate directory
 sudo mv Sweet-Dark-v40 /usr/share/themes
 
-# Set the system theme
-xfconf-query -c xsettings -p /Net/ThemeName -s "Sweet-Dark-v40"
+# Set the system theme manually
+
+# Install icons
+
+# Make icons directory
+mkdir ~/.icons
+
+# Download the icon theme
+wget https://github.com/johntrigg/triggonometry-kali-config/raw/refs/heads/main/rice/candy-icons.tar.xz
+
+# Extract the icon theme (assuming it's a compressed archive)
+tar -xvf candy-icons.tar.xz
+
+# Move the icon theme to the appropriate directory
+cp -r candy-icons/ /usr/share/icons
+
 
 # Make vpn directory
 
