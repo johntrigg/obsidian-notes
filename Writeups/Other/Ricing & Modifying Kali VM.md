@@ -45,6 +45,7 @@ cp -r candy-icons/ /usr/share/icons
 sudo mkdir -p /vpn && sudo chmod 777 /vpn
 
 # Navigate to power manager > display > sleep never and switch off never
+# Might also be in xfce screensaver
 
 # Install core programs
 sudo apt-get install tmux -y
