@@ -88,6 +88,9 @@ sliver-server
 # Import the attacker config
 sliver import attacker_0.0.0.0.cfg
 
+# And boot sliver client
+sliver
+
 
 ```
 
