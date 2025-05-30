@@ -1,4 +1,12 @@
+
+## Dealing with Errors
+I ran into a lot. Common issues included:
+
+Outdated sliver binaries
+Pre-existing ~/.sliver directory
+No mingw compiler
 ## Installing Sliver
+
 ```bash
 
 # Remove existing sliver stuff, run as sudo
