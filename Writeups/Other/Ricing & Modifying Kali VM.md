@@ -55,7 +55,8 @@ sudo apt-get install fastfetch -y
 ```
 
 ## oh-my-zsh
-```
+Run these one by one, manually, and not as root
+```bash
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
