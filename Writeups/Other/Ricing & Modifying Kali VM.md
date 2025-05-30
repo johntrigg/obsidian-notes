@@ -34,7 +34,8 @@ sudo mkdir -p /vpn && sudo chmod 777 /vpn
 # Navigate to power manager > display > sleep never and switch off never
 
 # Install core programs
-sudo apt install tmux
-sudo apt install golang -y
+sudo apt-get install tmux -y
+sudo apt-get install golang -y
+sudo apt-get install terminator -y
 
 ```
