@@ -80,7 +80,7 @@ sliver-server
 
 # More generous allow
 
-[server] sliver > new-operator -n attacker2 -l 0.0.0.0
+[server] sliver > new-operator -n attacker -l 0.0.0.0
 # Enable multiplayer
 [server] sliver > multiplayer
 
