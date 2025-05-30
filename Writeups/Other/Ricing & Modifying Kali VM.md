@@ -50,12 +50,20 @@ sudo mkdir -p /vpn && sudo chmod 777 /vpn
 sudo apt-get install tmux -y
 sudo apt-get install golang -y
 sudo apt-get install terminator -y
-sudo apt-get install neofetch -y
+sudo apt-get install fastfetch -y
 
 ```
 
+## oh-my-zsh
+```
+# Install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# Install blokkzh prompt
+curl -O https://raw.githubusercontent.com/KorvinSilver/blokkzh/master/blokkzh-downloader.zsh && zsh blokkzh-downloader.zsh $ZSH_CUSTOM && rm blokkzh-downloader.zsh
+```
 ## .zshrc file
+~/.zshrc
 
 ```
 if [ "$TMUX" = "" ]; then
@@ -66,6 +74,6 @@ fi
 export PATH="$PATH:/home/kali/.local/bin"
 export JAVA_HOME="$JAVA_HOME"
 
-neofetch
+fastfetch
 
 ```
