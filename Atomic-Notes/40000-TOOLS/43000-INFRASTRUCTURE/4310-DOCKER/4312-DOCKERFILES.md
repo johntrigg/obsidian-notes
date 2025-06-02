@@ -1,4 +1,4 @@
-A dockerfile is often used with [[notes/Atomic-Notes/40000-TOOLS/4300-INFRASTRUCTURE/4310-DOCKER/4311-DOCKER]] as a way to automate the building of images.
+A dockerfile is often used with [[notes/Atomic-Notes/40000-TOOLS/43000-INFRASTRUCTURE/4310-DOCKER/4311-DOCKER]] as a way to automate the building of images.
 
 https://docs.docker.com/reference/dockerfile/
 
