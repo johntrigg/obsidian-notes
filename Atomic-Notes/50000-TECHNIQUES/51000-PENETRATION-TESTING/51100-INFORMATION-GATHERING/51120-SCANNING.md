@@ -1,4 +1,4 @@
-Scanning is the use of utilizing tools and/or techniques to reveal information about a target. Some incredibly important tools for this include [[notes/Atomic-Notes/40000-TOOLS/41000-OFFENSIVE-TOOLS/4110-NMAP/4111-NMAP]], [[notes/Atomic-Notes/40000-TOOLS/41000-OFFENSIVE-TOOLS/4120-NUCLEI/4121-NUCLEI]]
+Scanning is the use of utilizing tools and/or techniques to reveal information about a target. Some incredibly important tools for this include [[notes/Atomic-Notes/40-TOOLS/4000-OFFENSIVE-TOOLS/4110-NMAP/4111-NMAP]], [[notes/Atomic-Notes/40-TOOLS/4000-OFFENSIVE-TOOLS/4120-NUCLEI/4121-NUCLEI]]
 
 ## USEFUL COMMANDS
 ```bash
