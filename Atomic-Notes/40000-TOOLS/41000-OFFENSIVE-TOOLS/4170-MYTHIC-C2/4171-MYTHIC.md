@@ -37,7 +37,7 @@ sudo ./mythic-cli install github https://github.com/MythicAgents/Apollo
 sudo ./mythic-cli install github https://github.com/MythicC2Profiles/http
 ```
 The 'installed services' tab is important, we can see what all is installed.
-![[notes/Atomic-Notes/40-TOOLS/4000-OFFENSIVE-TOOLS/4170-MYTHIC-C2/Pasted image 20250526215523.png]]
+![[notes/Atomic-Notes/40000-TOOLS/41000-OFFENSIVE-TOOLS/4170-MYTHIC-C2/Pasted image 20250526215523.png]]
 ## Web Interface
 This is where can manage a lot of things. It's accessed at
 `https://127.0.0.1:7443` by default
@@ -51,18 +51,18 @@ sudo ./mythic-cli restart
 ```
 
 We can click 'Create Your First Payload'
-![[notes/Atomic-Notes/40-TOOLS/4000-OFFENSIVE-TOOLS/4170-MYTHIC-C2/Pasted image 20250526215029.png]]
+![[notes/Atomic-Notes/40000-TOOLS/41000-OFFENSIVE-TOOLS/4170-MYTHIC-C2/Pasted image 20250526215029.png]]
 We can leave most of this stuff unchanged, except maybe statically compile the payload.
 Additionally, changing the callback details is necessary
 
-![[notes/Atomic-Notes/40-TOOLS/4000-OFFENSIVE-TOOLS/4170-MYTHIC-C2/Pasted image 20250526215701.png]]
+![[notes/Atomic-Notes/40000-TOOLS/41000-OFFENSIVE-TOOLS/4170-MYTHIC-C2/Pasted image 20250526215701.png]]
 We should be able to use our IP here, and port 80 is the default port. Even though we're not using HTTP/S, the traffic itself will be encrypted.
-![[notes/Atomic-Notes/40-TOOLS/4000-OFFENSIVE-TOOLS/4170-MYTHIC-C2/Pasted image 20250526215905.png]]
+![[notes/Atomic-Notes/40000-TOOLS/41000-OFFENSIVE-TOOLS/4170-MYTHIC-C2/Pasted image 20250526215905.png]]
 We can see our page on the 'payloads' page
-![[notes/Atomic-Notes/40-TOOLS/4000-OFFENSIVE-TOOLS/4170-MYTHIC-C2/Pasted image 20250526220223.png]]
+![[notes/Atomic-Notes/40000-TOOLS/41000-OFFENSIVE-TOOLS/4170-MYTHIC-C2/Pasted image 20250526220223.png]]
 
 We can just download and execute it. My first ever C2 beacon callback.
-![[notes/Atomic-Notes/40-TOOLS/4000-OFFENSIVE-TOOLS/4170-MYTHIC-C2/Pasted image 20250526224612.png]]
+![[notes/Atomic-Notes/40000-TOOLS/41000-OFFENSIVE-TOOLS/4170-MYTHIC-C2/Pasted image 20250526224612.png]]
 
 
 ## Windows Beacon
