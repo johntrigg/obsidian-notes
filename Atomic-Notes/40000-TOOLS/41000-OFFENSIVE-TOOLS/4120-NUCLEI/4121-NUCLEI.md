@@ -14,4 +14,4 @@ nuclei -l urls.txt -t nuclei-templates
 nuclei -l urls.txt -t nuclei-templates -tags cve
 ```
 
-Nuclei is used with templates, a lot of these are community maintained. See [[4122-CENT]] for reference.
+Nuclei is used with templates, a lot of these are community maintained. See [[notes/Atomic-Notes/40000-TOOLS/41000-OFFENSIVE-TOOLS/4120-NUCLEI/4122-CENT]] for reference.

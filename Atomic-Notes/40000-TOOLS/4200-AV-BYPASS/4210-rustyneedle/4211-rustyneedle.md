@@ -18,7 +18,7 @@ There's a few things we have to do. We have to install rust, modify the  src/mai
 Specifically, modify the number of base64 iterations, and where the shellcode is downloaded from.
 
 Take note of lines 10 and 12
-![[Pasted image 20250529002207.png]]
+![[notes/Atomic-Notes/40000-TOOLS/4200-AV-BYPASS/4210-rustyneedle/Pasted image 20250529002207.png]]
 
 Now, we need to make our encoded shellcode.
 ```bash
